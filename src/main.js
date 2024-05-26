@@ -1,10 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import vuetify from './plugins/vuetify'
-import { loadFonts } from './plugins/webfontloader'
+import { createApp } from 'vue';
+import App from './App.vue';
+import SkyMap from './components/SkyMap.vue';
 
-loadFonts()
+const app = createApp(App);
 
-createApp(App)
-  .use(vuetify)
-  .mount('#app')
+// Register the SkyMap component globally if needed
+app.component('SkyMap', SkyMap);
+
+app.mount('#app');

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Orion",
+    "description": "Orion is a prominent constellation...",
+    "abbreviation": "ori"
+  },
+  {
+    "name": "Ursa Major",
+    "description": "Ursa Major is a constellation...",
+    "abbreviation": "uma"
+  },
+  {
+    "name": "Cassiopeia",
+    "description": "Cassiopeia is a constellation...",
+    "abbreviation": "cas"
+  }
+]
